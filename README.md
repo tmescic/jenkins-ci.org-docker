@@ -1,4 +1,7 @@
-# Official Jenkins Docker image
+# (Modified) Official Jenkins Docker image
+
+**Official Jenkins Docker Image that was modified by me so that some of the standard Java developments tools are included - Maven, JMeter, ...**
+
 
 The Jenkins Continuous Integration and Delivery server.
 

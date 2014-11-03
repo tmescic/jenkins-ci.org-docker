@@ -20,6 +20,11 @@ EXPOSE 8080
 # will be used by attached slave agents:
 EXPOSE 50000
 
+
+RUN apt-get update
+RUN apt-get install -y maven
+RUN apt-get install -y jmeter
+
 USER jenkins
 
 COPY jenkins.sh /usr/local/bin/jenkins.sh
